@@ -26,7 +26,7 @@ LUSCSI 是一个基于 [Container Storage Interface (CSI)](https://github.com/co
 
 ```bash
 # 添加 Helm 仓库
-helm repo add luscsi https://github.com/luskits/luscsi
+helm repo add luscsi https://luskits.github.io/luscsi/
 
 # 部署 luscsi
 helm install luscsi luscsi/luscsi -n luscsi --create-namespace \

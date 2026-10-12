@@ -28,7 +28,7 @@ Ensure the Kubernetes cluster has the Helm plugin installed, and follow these st
 
 ```bash
 # Add luscsi helm repo
-helm repo add luscsi https://github.com/luskits/luscsi
+helm repo add luscsi https://luskits.github.io/luscsi/
 
 # Deploy luscsi using Helm
 helm install luscsi luscsi/luscsi -n luscsi --create-namespace \
